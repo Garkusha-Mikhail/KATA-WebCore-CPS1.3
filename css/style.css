@@ -7,8 +7,8 @@
 }
 @font-face {
   font-family: "TT Lakes";
-  src: url("fonts/TTLakes/TTLakes-Bold.eot");
-  src: local("fonts/TTLakes/TT Lakes Bold"), local("fonts/TTLakes/TTLakes-Bold"), url("fonts/TTLakes/TTLakes-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/TTLakes/TTLakes-Bold.woff") format("woff"), url("fonts/TTLakes/TTLakes-Bold.ttf") format("truetype");
+  src: url("../fonts/TTLakes/TTLakes-Bold.eot");
+  src: local("../fonts/TTLakes/TT Lakes Bold"), local("../fonts/TTLakes/TTLakes-Bold"), url("../fonts/TTLakes/TTLakes-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/TTLakes/TTLakes-Bold.woff") format("woff"), url("../fonts/TTLakes/TTLakes-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
@@ -22,6 +22,7 @@
 .body {
   margin: 0;
   font-family: "TT Lakes";
+  font-weight: normal;
   box-sizing: border-box;
 }
 
